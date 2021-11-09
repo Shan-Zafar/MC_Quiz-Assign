@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void gotoURl(View view){
-        String url = "https://github.com/Shan-Zafar/MC_Quiz-Assignment.git";
+        String url = "https://github.com/Shan-Zafar/MC_Quiz-Assign";
         Intent i = new Intent(Intent.ACTION_VIEW);
         i.setData(Uri.parse(url));
         startActivity(i);
