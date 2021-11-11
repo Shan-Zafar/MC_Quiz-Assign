@@ -23,14 +23,7 @@ public class Quiz extends AppCompatActivity {
     Button button3;
 
 
-    public void chooseAnswer(View view){
-        if(a == (view.getTag().toString())){
-            button0.setBackgroundColor(Color.GREEN);
-        }
-        else {
-            button0.setBackgroundColor(Color.RED);
-        }
-    }
+
 
 
 

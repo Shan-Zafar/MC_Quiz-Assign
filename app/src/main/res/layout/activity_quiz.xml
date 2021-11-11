@@ -6,76 +6,98 @@
     android:layout_height="match_parent"
     tools:context=".Quiz">
 
-    <androidx.gridlayout.widget.GridLayout
-        android:id="@+id/gridLayout"
-        android:layout_width="404dp"
-        android:layout_height="328dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="30dp"
-        app:columnCount="2"
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="132dp"
+        android:layout_height="69dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="100dp"
+        android:text="Lisaveyah"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="129dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="4dp"
+        android:text="Ghunna"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:rowCount="2">
-
-        <Button
-            android:id="@+id/button0"
-            android:layout_width="194dp"
-            android:layout_height="165dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:onClick="chooseAnswer"
-            android:tag="أ ہ"
-            android:text="End of Throat"
-            app:layout_column="0"
-            app:layout_row="0" />
-
-        <Button
-            android:id="@+id/button1"
-            android:layout_width="194dp"
-            android:layout_height="165dp"
-            android:layout_marginLeft="10dp"
-            android:onClick="chooseAnswer"
-            android:tag="غ خ"
-            android:text="Start of the Throat"
-            app:layout_column="0"
-            app:layout_row="1" />
-
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="194dp"
-            android:layout_height="165dp"
-            android:text="None"
-            app:layout_column="1"
-            app:layout_row="1" />
-
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="194dp"
-            android:layout_height="165dp"
-            android:layout_marginRight="15dp"
-            android:onClick="chooseAnswer"
-            android:tag="ع ح"
-            android:text="Middle of Throat"
-            app:layout_column="1"
-            app:layout_row="0" />
-
-    </androidx.gridlayout.widget.GridLayout>
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="258dp"
-        android:layout_height="108dp"
-        android:layout_marginTop="80dp"
+        android:layout_width="240dp"
+        android:layout_height="206dp"
+        android:layout_marginTop="32dp"
+        android:background="#E91E63"
+        android:gravity="center|center_horizontal"
         android:text="TextView"
-        android:textAlignment="viewStart"
-        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="#F4EFEF"
+        android:textSize="40sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button0"
+        android:layout_width="134dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="14dp"
+        android:background="#009688"
+        android:backgroundTint="#009688"
+        android:text="Halqiyah"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toStartOf="@+id/button5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="141dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="19dp"
+        android:text="Lahatiyah"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toStartOf="@+id/button6"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="135dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="88dp"
+        android:text="Shajariyah-Haafiyah"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="135dp"
+        android:layout_height="69dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="28dp"
+        android:text="Tarfiyah"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="129dp"
+        android:layout_height="58dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="17dp"
+        android:text="Nit-eeyah"
+        app:layout_constraintBottom_toTopOf="@+id/button7"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
