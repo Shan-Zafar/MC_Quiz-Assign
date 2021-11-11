@@ -10,8 +10,8 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    public void startQuiz(View view){
-        Intent intent = new Intent(getApplicationContext(),Quiz.class);
+    public void startPractice(View view){
+        Intent intent = new Intent(getApplicationContext(),Practice.class);
         startActivity(intent);
     }
 
